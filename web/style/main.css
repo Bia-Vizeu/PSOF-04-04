@@ -1,0 +1,41 @@
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 5vw;
+    flex-direction: column;
+    position: relative;
+    min-height: 70vh;
+    padding-bottom: 0.2vw;
+}
+
+table {
+    width: 90vw;
+    max-width: 90vw;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 1vw;
+    overflow: hidden;
+    box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #243e5a;
+    color: white;
+    padding: 1.0vh 1vw;
+    font-size: 1.2vw;
+}
+
+tbody td {
+    padding: 1.2vh 1vw;
+    border-top: 1px solid #ddd;
+    font-size: 1vw;
+}
+
+th[colspan="4"] {
+    background-color: #2e5680;
+    font-size: 1.5vw;
+    color: white;
+    padding: 1.5vh 1vw;
+}

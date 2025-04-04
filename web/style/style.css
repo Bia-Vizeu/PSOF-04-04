@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* MODAL */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.oculto {
+    display: none;
+}
+
+/* JANELA */
+.janela {
+    background-color: white;
+    padding: 4vh 4vw;
+    border-radius: 1.5vh;
+    width: 90vw;
+    max-width: 60vw;
+    box-shadow: 0 0.5vh 2vh rgba(0, 0, 0, 0.3);
+}
+
+.janela h2 {
+    margin-bottom: 2vh;
+}
+
+.janela div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.janela button {
+    background-color: #243e5a;
+    color: white;
+    border: none;
+    padding: 1vh 2vw;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+
+.janela button:hover {
+    background-color: #2b537e;
+}
+
+.janela form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.janela input {
+    padding: 1.2vh 1vw;
+    border: 1px solid #ccc;
+    border-radius: 1vh;
+    font-size: 1.8vh;
+}
+
+.janela table {
+    width: 100%;
+    margin-top: 2vh;
+    border-collapse: collapse;
+    font-size: 1.6vh;
+}
+
+.janela th,
+.janela td {
+    border: 1px solid #ddd;
+    padding: 1.2vh 0.5vw;
+    text-align: center;
+}
+
+.janela th {
+    background-color: #f0f0f0;
+}
+
+#botao-cadastro {
+    position: absolute;
+    top: 4vh;
+    left: 4vw;
+    padding: 1.5vh 2.5vw;
+    background-color: #243e5a;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+#botao-cadastro:hover {
+    background-color: #2b537e;
+}
