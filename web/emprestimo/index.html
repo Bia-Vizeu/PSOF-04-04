@@ -49,100 +49,13 @@
                     <th>Retirada</th>
                     <th>Devolução</th>
                     <th>Multa</th>
-                    <th>Status</th>
+                    <th>Detalhes</th>
                 </tr>
             </thead>
             <tbody>
             </tbody>
         </table>
     </main>
-    <style>
-        main {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 4vh 4vw;
-            flex-direction: column;
-            position: relative;
-            min-height: 70vh;
-        }
-
-        table {
-            width: 100%;
-            max-width: 1000px;
-            border-collapse: collapse;
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-
-        /* Cabeçalho da tabela */
-        thead th {
-            background-color: #243e5a;
-            color: white;
-            padding: 15px;
-            font-size: 18px;
-            text-align: center;
-        }
-
-        /* Primeira linha do cabeçalho (título geral) */
-        thead tr:first-child th {
-            background-color: #2e5680;
-            font-size: 20px;
-        }
-
-        /* Linhas do corpo da tabela */
-        tbody td {
-            padding: 12px;
-            border-top: 1px solid #ddd;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        /* Responsivo para telas pequenas */
-        @media (max-width: 768px) {
-
-            table,
-            thead,
-            tbody,
-            th,
-            td,
-            tr {
-                display: block;
-                width: 100%;
-            }
-
-            thead {
-                display: none;
-            }
-
-            tr {
-                margin-bottom: 15px;
-                background-color: white;
-                border: 1px solid #ddd;
-                border-radius: 10px;
-                padding: 10px;
-            }
-
-            td {
-                display: flex;
-                justify-content: space-between;
-                padding: 10px;
-                border: none;
-                border-bottom: 1px solid #eee;
-                font-size: 16px;
-            }
-
-            td::before {
-                content: attr(data-label);
-                font-weight: bold;
-                color: #243e5a;
-            }
-        }
-    </style>
     <footer>By Bia Vizeu</footer>
     <section id="detalhes" class="modal oculto">
         <div class="janela">
